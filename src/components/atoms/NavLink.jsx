@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 
-const NavLink = ({ to, label, active=false, className=""}) => {
+const NavLink = ({ to, label, className=""}) => {
   return(
     <Link
       to={to}
