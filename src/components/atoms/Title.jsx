@@ -1,10 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Title = ({ text, as, className = "" }) => {
-  const Component = as || "h1";
+const Title = ({ text, as = "h1", className = "" }) => {
   return (
-    React.createElement(Component, { className, text })
+    React.createElement(as, { className }, text )
   );
 };
 

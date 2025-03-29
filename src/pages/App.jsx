@@ -1,11 +1,13 @@
 import NavBar from '../components/organisms/NavBar';
+import Title from '../components/atoms/Title';
 
 function App() {
 
   return (
     <>
       <NavBar />
-      <h1>HidalVent</h1>
+      <Title text="HidalVent" />
+      <Title text="Sobre Nosotros" as="h2" />
     </>
   )
 };

@@ -1,11 +1,12 @@
 import NavBar from '../components/organisms/NavBar';
+import Title from '../components/atoms/Title';
 
 function Services() {
 
   return (
     <>
       <NavBar />
-      <h1>Servicios</h1>
+      <Title text="Servicios" />
     </>
   )
 };
